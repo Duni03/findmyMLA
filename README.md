@@ -1,5 +1,6 @@
 # Find my MLA
 LIVE PORTAL - [CLICK](https://duni03.github.io/findmyMLA/)
+![Screenshot DEMO](./Livesite.jpeg)
 > [!NOTE]
 > Allow Location for easy navigation & Tap/Click on the map to get the details
 ## Data Source
