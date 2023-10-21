@@ -54,7 +54,7 @@ async function themain() {
     const mtLayer = L.maptilerLayer({
         apiKey: key,
         style: "174f3e03-2ad9-4ab5-b178-5fa0bbfa7cc1", //optional
-        attribution: '<a href="https://github.com/Duni03/findmyMLA">click DATA SOURCE</a>'
+        attribution: '<a href="https://github.com/Duni03/findmyMLA">SOURCE</a>'
     }).addTo(map);
 
     var popup = L.popup();
