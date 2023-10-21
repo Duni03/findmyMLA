@@ -12,9 +12,9 @@ All used tools are open source and free.
 
 | Tool | README |
 | ------ | ------ |
-| Leadlet | [https://leafletjs.com/][PlDb] |
-| Maptiler | [https://www.maptiler.com/][PlGh] |
-| OpenStreetMap | [https://www.openstreetmap.org/][PlGd] |
+| Leadlet | [https://leafletjs.com/] |
+| Maptiler | [https://www.maptiler.com/] |
+| OpenStreetMap | [https://www.openstreetmap.org/]|
 
 ### Task list
 - [x] Basic Build
