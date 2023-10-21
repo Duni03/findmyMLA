@@ -108,4 +108,14 @@ async function themain() {
     };
 
     title1.addTo(map);
+    
+    var det = L.control({ position: "bottomright" });
+
+    det.onAdd = function (map) {
+        var div = L.DomUtil.create("div", "det");
+        div.innerHTML += '<p style="color:white;text-align:center;">Allow Location / Click on locations to get Details </p>';
+        return div;
+    };
+
+    det.addTo(map);
 }
