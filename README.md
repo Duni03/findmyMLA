@@ -10,8 +10,13 @@ LIVE PORTAL - [CLICK](https://duni03.github.io/findmyMLA/)
 
 All used tools are open source and free.
 
-| Plugin | README |
+| Tool | README |
 | ------ | ------ |
 | Leadlet | [https://leafletjs.com/][PlDb] |
 | Maptiler | [https://www.maptiler.com/][PlGh] |
 | OpenStreetMap | [https://www.openstreetmap.org/][PlGd] |
+
+### Task list
+- [x] Basic Build
+- [ ] Add Additonal States
+- [ ] Add Contenders for upcoming elections (2023-24)
