@@ -1,3 +1,5 @@
+# TO SCRAP DATA 
+
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
@@ -40,7 +42,7 @@ for i in range(1, len(raw_data)):
     _assests = assests[3:assests.find("~")-1]
     # print("Assets : "+_assests)
     csv_assest.append(str(_assests))
-    print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+    print("DONE")
 
 # Creating CSV
 
@@ -51,5 +53,3 @@ df = pd.DataFrame(d)
 print(df)
 
 df.to_csv('TG_2018_Winners_DATA.csv')
-
-# Creating JSON
