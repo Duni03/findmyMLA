@@ -17,7 +17,7 @@ async function getdata() {
 }
 
 function gettemplate(f) {
-    var x = '<h1>' + f.properties.assembly_1+'</h1><a href="https://www.google.com/search?q='+f.properties.Name+'"'+'><h3>Name: ' + f.properties.Name + '</h3></a>' 
+    var x = '<h7>Constituency</h7>'+'<h1>' +'<h1>' + f.properties.assembly_1+'</h1><a href="https://www.google.com/search?q='+f.properties.Name+'"'+'><h3>Name: ' + f.properties.Name + '</h3></a>' 
     x += '<h4>Party: ' + f.properties.party + '</h4>';
     x += '<h4>Qualification: ' + f.properties.Qualification + '</h4>';
     x += '<h4>litigations: ' + f.properties.case + '</h4>';
@@ -78,7 +78,7 @@ async function themain() {
         }
         else {
             L.geoJSON(data.features[x], {
-                style: { "color": "#d1f8c4", "fillOpacity": 0.31, "fillColor": '#0002A1' },
+                style: { "color": "#c4e8f8", "fillOpacity": 0.31, "fillColor": '#0002A1' },
                 onEachFeature: function (feature, layer) {
                     layer.bindPopup(gettemplate(feature));
                 }
